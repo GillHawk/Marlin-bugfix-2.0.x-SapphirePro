@@ -10,9 +10,12 @@ Extra options are provided for Sapphire Pro Steppers:
 - Enable `SPRO_BLTOUCH` if you want to enable BLTOUCH. (BLTOUCH Will Replace Z_Min_Plug)
 
 
-Visual Studio Code
+## Visual Studio Code
+
 Change "default_envs" key in "platformio.ini":
+
 [platformio]
+
 default_envs = mks_robin_nano35 
 
 
