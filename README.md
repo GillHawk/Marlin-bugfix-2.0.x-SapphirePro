@@ -1,7 +1,7 @@
 
 # Marlin 3D Printer Firmware adjusted for Sapphire Pro
 
-This is built starting from [Marlin bugfix-2.0.x] (https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x) and [Marlin bugfix-2.0.x Configurations] (https://github.com/MarlinFirmware/Configurations/tree/bugfix-2.0.x).
+This is built starting from [Marlin bugfix-2.0.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x) and [Marlin bugfix-2.0.x Configurations](https://github.com/MarlinFirmware/Configurations/tree/bugfix-2.0.x).
 
 Extra options are provided for Sapphire Pro Steppers:
 
