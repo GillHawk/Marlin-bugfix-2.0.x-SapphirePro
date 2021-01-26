@@ -1,3 +1,21 @@
+
+# Marlin 3D Printer Firmware adjusted for Sapphire Pro
+
+This is built starting from [Marlin bugfix-2.0.x] (https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x) and [Marlin bugfix-2.0.x Configurations] (https://github.com/MarlinFirmware/Configurations/tree/bugfix-2.0.x).
+
+Extra options are provided for Sapphire Pro Steppers:
+
+- Enable `SPRO_INVERTED_E`  if the E motor goes in reverse.
+- Enable `SPRO_TMC2209` if your board has TMC2209 drivers.
+- Enable `SPRO_BLTOUCH` if you want to enable BLTOUCH. (BLTOUCH Will Replace Z_Min_Plug)
+
+
+Visual Studio Code
+Change "default_envs" key in "platformio.ini":
+[platformio]
+default_envs = mks_robin_nano35 
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
